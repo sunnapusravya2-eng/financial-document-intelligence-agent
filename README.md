@@ -1,14 +1,20 @@
-# Financial Document Intelligence Agent for SMEs
+# 📊 Financial Document Intelligence Agent for SMEs
 
-An AI-powered financial document intelligence system that automatically processes, classifies, extracts, and analyzes business documents to generate meaningful financial insights.
+An AI-powered financial document intelligence system that automatically **processes, classifies, extracts, analyzes, and generates insights** from business financial documents.
+
+Built with **Python, Streamlit, LangChain, Google Gemini, Pandas, and NumPy**.
+
+---
 
 ## 🚀 Overview
 
-Small and medium-sized businesses often manage important financial information across multiple documents such as Profit & Loss statements, Balance Sheets, and Invoices.
+Small and medium-sized businesses often manage important financial information across multiple documents such as **Profit & Loss statements, Balance Sheets, and Invoices**.
 
-The **Financial Document Intelligence Agent** automates this process by combining document processing, financial analysis, and Generative AI to help users understand financial data more efficiently.
+The **Financial Document Intelligence Agent** automates this workflow by combining intelligent document processing, financial analysis, and Generative AI to help users understand financial data more efficiently.
 
-Users can upload financial documents and receive structured analysis and AI-powered insights through an interactive Streamlit application.
+Users can upload financial documents through an interactive **Streamlit application** and receive structured financial analysis and AI-powered insights.
+
+---
 
 ## ✨ Key Features
 
@@ -21,6 +27,9 @@ Users can upload financial documents and receive structured analysis and AI-powe
 * 📈 Automated financial analysis
 * 💬 Interactive Streamlit interface
 * 🔐 Environment-based API key configuration
+* 📁 Support for Excel, CSV, and PDF documents
+
+---
 
 ## 🧠 AI & Processing Workflow
 
@@ -39,6 +48,24 @@ Generative AI Processing
         ↓
 Business Insights
 ```
+
+---
+
+## 📸 Application Screenshots
+
+### 📂 Document Classification
+
+![Document Classification](document-classification.png.jpeg)
+
+### 📊 Financial Analysis
+
+![Financial Analysis](financial-analysis.png.jpeg)
+
+### 🖥️ Application Dashboard
+
+![Application Dashboard](dashboard.png.jpeg)
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -68,10 +95,12 @@ Business Insights
 * CSV
 * PDF
 
+---
+
 ## 📁 Project Structure
 
 ```text
-financial-document-agent/
+financial-document-intelligence-agent/
 │
 ├── agents/
 │   └── document_agent.py
@@ -90,6 +119,8 @@ financial-document-agent/
 ├── .gitignore
 └── README.md
 ```
+
+---
 
 ## ⚙️ Installation
 
@@ -125,6 +156,8 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
+---
+
 ## 🔑 Environment Configuration
 
 Create a `.env` file in the project root:
@@ -133,7 +166,9 @@ Create a `.env` file in the project root:
 GOOGLE_API_KEY=your_google_gemini_api_key_here
 ```
 
-Never commit your real API key to GitHub.
+> ⚠️ Never commit your real API key to GitHub.
+
+---
 
 ## ▶️ Run the Application
 
@@ -145,9 +180,11 @@ streamlit run app.py
 
 The application will open in your browser.
 
+---
+
 ## 📊 Supported Financial Documents
 
-The application is designed to work with financial documents such as:
+The application is designed to work with:
 
 * Profit & Loss statements
 * Balance Sheets
@@ -155,6 +192,8 @@ The application is designed to work with financial documents such as:
 * CSV financial data
 * Excel financial data
 * PDF financial documents
+
+---
 
 ## 💡 Example Use Case
 
@@ -166,13 +205,24 @@ Balance_Sheet.xlsx
 Invoices.xlsx
 ```
 
-The system can classify the documents, extract relevant financial information, analyze the data, and generate useful financial insights.
+The system then:
+
+1. Classifies the uploaded documents
+2. Extracts relevant financial information
+3. Performs financial analysis
+4. Processes the information using Generative AI
+5. Generates useful business insights
+6. Presents the results through the Streamlit interface
+
+---
 
 ## 🎯 Project Goals
 
-The project demonstrates how Generative AI and intelligent document processing can be applied to real-world financial workflows.
+The project demonstrates how **Generative AI and intelligent document processing** can be applied to real-world financial workflows.
 
-The main goal is to reduce manual document analysis and make financial information easier to understand.
+The primary goal is to reduce manual document analysis and make financial information easier to understand for SMEs.
+
+---
 
 ## 🔮 Future Enhancements
 
@@ -186,12 +236,16 @@ The main goal is to reduce manual document analysis and make financial informati
 * Advanced RAG capabilities
 * Agent-based financial recommendations
 
+---
+
 ## 👩‍💻 Author
 
 **Sravya Sunnapu**
 
 Aspiring AI Engineer | Generative AI | RAG | LLMs | Python
 
-GitHub: https://github.com/sunnapusravya2-eng
+**GitHub:**
+https://github.com/sunnapusravya2-eng
 
-LinkedIn: https://www.linkedin.com/in/sravyasunnapu/
+**LinkedIn:**
+https://www.linkedin.com/in/sravyasunnapu/
